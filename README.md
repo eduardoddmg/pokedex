@@ -1,5 +1,6 @@
 # Pokedex
-<a href="https://pokedex-edumelo.netlify.app">Linkd do deploy</a>
+Aplicação desenvolvida utilizando a <a href="https://pokeapi.co" target="_blank">PokeApi</a><br>
+<a href="https://pokedex-edumelo.netlify.app" target="_blank">Link do deploy</a>
 ## imagens
 <img src="overview1.png" alt="img">
 <img src="overview2.png" alt="img">

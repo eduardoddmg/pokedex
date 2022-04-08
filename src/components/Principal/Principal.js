@@ -36,8 +36,10 @@ const Principal = () => {
       )}
       {(dataHability && dataText) && (
         <div className="principal">
-          <img
-            src={`https://unpkg.com/pokeapi-sprites@2.0.4/sprites/pokemon/other/dream-world/${params.id}.svg`}
+          <img 
+          src={
+                    `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${params.id}.png`
+                  }
             alt="pokemon img"
           />
           <p>{dataText}</p>

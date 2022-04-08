@@ -29,4 +29,8 @@
     {
         width: 80%;
     }
+    .principal p
+    {
+        padding: 2vh;
+    }
 }

@@ -17,9 +17,7 @@ const Pokemon = () => {
 
   useEffect(() => {
     fetching();
-    console.log(info);
   }, [info]);
-
 
   return (
     <>
@@ -51,9 +49,7 @@ const Pokemon = () => {
                 <h1>{value.name}</h1>
                 <img
                   src={
-                    "https://unpkg.com/pokeapi-sprites@2.0.4/sprites/pokemon/other/dream-world/" +
-                    (index + 1) +
-                    ".svg"
+                    `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index+1}.png`
                   }
                   alt="img"
                 />{" "}

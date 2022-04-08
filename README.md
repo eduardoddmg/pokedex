@@ -1,5 +1,9 @@
 # Pokedex
 
+## imagens
+<img src="overview1.png" alt="img">
+<img src="overview2.png" alt="img">
+
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:

@@ -9,7 +9,7 @@ const Pokemon = () => {
   const [info, setInfo] = useState(null);
 
   const fetching = () => {
-    fetch("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=2000")
+    fetch("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=898")
       .then((response) => response.json())
       .then((data) => setInfo(() => data.results))
       .catch((e) => console.log(e));

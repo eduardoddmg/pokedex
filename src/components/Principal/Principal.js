@@ -24,8 +24,6 @@ const Principal = () => {
       .catch((e) => console.log(e));
   }, [dataHability]);
 
-  console.log(dataText);
-
   return (
     <>
       {(!dataHability || !dataHability) && (
